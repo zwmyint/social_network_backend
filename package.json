@@ -1,0 +1,34 @@
+{
+  "name": "social_network_api_nodejs",
+  "version": "1.0.0",
+  "description": "rede social - API REST com nodejs.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TiagoSchaeffer/social_network_api_nodejs.git"
+  },
+  "keywords": [
+    "social",
+    "media",
+    "network"
+  ],
+  "author": "Tiago G Santos (Tiago Schaeffer)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TiagoSchaeffer/social_network_api_nodejs/issues"
+  },
+  "homepage": "https://github.com/TiagoSchaeffer/social_network_api_nodejs#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "pg": "^8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
